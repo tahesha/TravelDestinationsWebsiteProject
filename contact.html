@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title> <!-- Sets the title of the webpage -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links the external CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Navigation link to index.html -->
+                <li><a href="about.html">About</a></li> <!-- Navigation link to about.html -->
+                <li><a href="contact.html">Contact</a></li> <!-- Navigation link to contact.html (current page) -->
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Contact Us</h1> <!-- Main heading -->
+        <section>
+            <h2>Contact Information</h2> <!-- Subheading -->
+            <p>Email: contact@example.com</p> <!-- Contact email -->
+            <p>Phone: 123-456-7890</p> <!-- Contact phone number -->
+        </section>
+
+
+ <section>
+        <div class="form-container">
+            
+             <h2>Contact Form</h2> <!-- Subheading -->
+           
+            <form action="submit_form.php" method="post"> <!-- Contact form -->
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br> <!-- Name input field -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br> <!-- Email input field -->
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br> <!-- Message input field -->
+                <input type="submit" value="Submit"> <!-- Submit button -->
+            </form>
+    </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>

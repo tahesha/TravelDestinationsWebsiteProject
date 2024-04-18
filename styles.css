@@ -1,0 +1,169 @@
+/* External Styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font family for the entire page */
+    background-color: #f3f3f3; /* Sets the background color of the body */
+    color: #333; /* Sets the default text color */
+}
+
+header {
+    background-color: #671c67; /* Sets the background color of the header */
+    color: #fff; /* Sets the text color of the header */
+    padding: 10px 0; /* Adds padding to the header */
+}
+
+h1 {
+    text-align: center;
+    background-color: goldenrod;
+}
+
+h2 {
+    text-align: center;
+    background-color: goldenrod;
+}
+
+caption {
+    background-color: #F76C5E;
+}
+
+.image-container {
+    text-align: center; /* Center the image horizontally */
+}
+
+.image-container img {
+    max-width: 50%; /* Ensure the image does not exceed its container's width */
+    height: 50%; /* Maintain the image's aspect ratio */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 8px; /* Add rounded corners to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect to the image */
+   
+}
+
+
+nav ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+}
+
+nav ul li {
+    display: inline; /* Displays list items horizontally */
+    margin-right: 20px; /* Adds space between list items */
+}
+
+nav ul li a {
+    color: #fff; /* Sets the text color of the navigation links */
+    text-decoration: none; /* Removes underline from navigation links */
+}
+
+nav ul li.dropdown {
+    position: relative; /* Sets the position of the dropdown menu relative to its parent */
+}
+
+.dropdown-content {
+    display: none; /* Hides the dropdown content by default */
+    position: absolute; /* Sets the position of the dropdown content */
+    background-color: #f9f9f9; /* Sets the background color of the dropdown content */
+    min-width: 160px; /* Sets the minimum width of the dropdown content */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Adds shadow effect to the dropdown content */
+    z-index: 1; /* Sets the stacking order of the dropdown content */
+}
+
+.dropdown-content a {
+    color: #333; /* Sets the text color of the dropdown links */
+    padding: 12px 16px; /* Adds padding to the dropdown links */
+    display: block; /* Displays dropdown links as block elements */
+    text-decoration: none; /* Removes underline from dropdown links */
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd; /* Changes background color of dropdown link on hover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Displays dropdown content on hover */
+}
+
+main {
+    padding: 20px; /* Adds padding to the main content area */
+}
+
+.fade-in-image {
+    opacity: 0; /* Initially hide the image */
+    animation: fadeIn 1.5s forwards; /* Apply the fadeIn animation */
+}
+/* This is my first time using keyframes: 
+@keyframes is a CSS at-rule that allows you to define animations by specifying keyframes at various points during the animation sequence. It's used in conjunction with the animation property to create complex animations in CSS.
+Here's how it works:
+Define Keyframes: You define keyframes using the @keyframes at-rule followed by a name for the animation. Within the @keyframes block, you specify the styles that you want to apply at different points in time during the animation.
+Apply Keyframes: Once you've defined your keyframes, you can apply them to elements using the animation property. You specify the name of the keyframes you want to use, along with other animation properties like duration, timing function, delay, and fill mode.*/
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+        opacity: 1; /* Fade in to full opacity */
+    }
+}
+
+.image-container {
+    text-align: center; /* Center the image horizontally */
+    margin-top: 20px; /* Add some margin */
+    
+}
+
+
+
+footer {
+    background-color: #333; /* Sets the background color of the footer */
+    color: #fff; /* Sets the text color of the footer */
+    text-align: center; /* Centers the text within the footer */
+    padding: 10px 0; /* Adds padding to the footer */
+}
+
+table {
+    width: 100%; /* Sets the table width to 100% of its container */
+    border-collapse: collapse; /* Collapses the table borders */
+    margin-top: 20px; /* Adds margin to the top of the table */
+}
+
+caption {
+    font-weight: bold; /* Makes the caption text bold */
+    font-size: 1.2em; /* Increases the font size of the caption */
+    margin-bottom: 10px; /* Adds margin to the bottom of the caption */
+}
+
+th, td {
+    border: 1px solid #0b0a0a; /* Sets border for table cells */
+    padding: 8px; /* Adds padding inside table cells */
+}
+
+th {
+    background-color: #adccbd; /* Sets background color for table header cells */
+    font-weight: bold; /* Makes the text in table header cells bold */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #58A4B0; /* Sets background color for even rows */
+}
+
+.button
+{
+    background-color: #58A4B0;
+    
+}
+
+.button:hover {
+    background-color:#F76C5E;
+    transition: 0.7s;
+}
+
+.form-container {
+    display: grid;
+    place-items: center;
+    min-height: 0vh;
+    
+  }
+  
+  form {
+    width: 50%;
+  }

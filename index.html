@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations</title> <!-- Sets the title of the webpage -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links the external CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Navigation link to index.html -->
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Destinations</a> <!-- Dropdown button -->
+                    <div class="dropdown-content">
+                        <a href="paris.html">Paris</a> <!-- Dropdown link to Paris page -->
+                        <a href="barcelona.html">Barcelona</a> <!-- Dropdown link to Barcelona page -->
+                        <!-- Add more dropdown links as needed -->
+                    </div>
+                </li>
+                <li><a href="about.html">About</a></li> <!-- Navigation link to about.html -->
+                <li><a href="contact.html">Contact</a></li> <!-- Navigation link to contact.html -->
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <main>
+        <h1>Welcome to our Travel Destinations website!</h1> <!-- Main heading -->
+        <section>
+            <section class="image-container">
+ <!-- Image via a folder on my pc as source---(I used this method because I needed to learn this skill!) -->
+ <img src= "images/Black Girl Rock Vacation Image.jpg"
+ alt="Black Girls Shining Like the Sun on Vacation Abroad">
+
+                <!-- Image via a website as source
+                <img src= https://blacktraveljourney.com/wp-content/uploads/2017/10/23824385_738321273028931_1135984687622127616_n1.jpg
+                 alt="Description of the image"> -->
+
+
+
+                <!-- Link -->
+                <a href="contact.html">Travel With Us Now</a>
+            </section>
+        </section>
+
+            <h2>Popular Travel Destinations</h2> <!-- Subheading -->
+            <table>
+                <caption>Explore the World With Us</caption> <!-- Table caption -->
+                <img src= "images/Paris, France Image.jpg"
+                alt="Paris, France Map">
+                <img src= "images/Barcelona, Spain Image.jpg"
+ alt="Barcelona, Spain Map">
+
+                <thead>
+                    <tr>
+                        <th>Destination</th> <!-- Table header for destination -->
+                        <th>Description</th> <!-- Table header for description -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Paris, France</td> <!-- Destination -->
+                        <td>Known as the City of Love, Paris offers iconic landmarks such as the Eiffel Tower and the Louvre Museum.</td> <!-- Description -->
+                    </tr>
+                    <tr>
+                        <td>Barcelona, Spain</td> <!-- Destination -->
+                        <td>Famous for its unique architecture, vibrant culture, and beautiful beaches.</td> <!-- Description -->
+                    </tr>
+                    <!-- Add more rows for additional destinations -->
+                </tbody>
+            </table>
+        </section>
+
+       <!--This is the section for one of the forms-->
+
+       <div class="form-container">
+        <section>
+            <h2>Sign Up for Postcard Updates</h2> <!-- Subheading -->
+            <form action="submit_form.php" method="post"> <!-- Postcard signup form -->
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br> <!-- Name input field -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br> <!-- Email input field -->
+                <label for="address">Address:</label><br>
+                <textarea id="address" name="address" required></textarea><br> <!-- Address input field -->
+                <input type="submit" value="Sign Up"> <!-- Submit button -->
+            </form>
+        </section>
+    </div>
+
+    </main>
+
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>
