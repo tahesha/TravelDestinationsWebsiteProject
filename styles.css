@@ -154,7 +154,7 @@ tbody tr:nth-child(even) {
 
 .button:hover {
     background-color:#F76C5E;
-    transition: 0.7s;
+    /* transition: 0.7s; */
 }
 
 .form-container {
