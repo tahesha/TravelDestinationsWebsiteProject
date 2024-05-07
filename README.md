@@ -2,7 +2,7 @@ Travel Destinations Website
 Website URL: http://127.0.0.1:3000/index.html
 
 Description:
-This project is a small three-page website showcasing different travel destinations. It includes information about various cities and encourages users to explore and learn more about these destinations. The website provides a clean layout and styling, making it easy for users to navigate and find the information they need.
+This project is a three-page website showcasing different travel destinations. It includes information about various cities and encourages users to explore and learn more about these destinations. The website provides a clean layout and styling, making it easy for users to navigate and find the information they need.
 
 Pages:
 1. Home: Introduces users to the website and presents a selection of travel destinations with enticing images and brief descriptions.
